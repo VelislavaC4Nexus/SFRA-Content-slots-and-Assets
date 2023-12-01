@@ -27,8 +27,8 @@ server.extend(module.superModule);
 server.append('Show', function (req, res, next) {
     var viewData = res.getViewData();
     var ProductMgr = require("dw/catalog/ProductMgr");
-    var prodForomMgr = ProductMgr.getProduct(viewData.product.id);
-    viewData.product.longDescription = prodForomMgr.longDescription.markup;
+    var produtWithAllattr = ProductMgr.getProduct(viewData.product.id);
+    viewData.product.shortDescription = produtWithAllattr.shortDescription.markup;
     res.setViewData(viewData)
     next();
 });

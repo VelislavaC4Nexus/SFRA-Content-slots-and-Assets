@@ -18,7 +18,7 @@
         <isif condition="${pdict.display.ratings !== false}">
             <isinclude template="product/productTileFooter" />
         </isif>
-        <p>${product.longDescription}</p>
+        <p>${product.shortDescription}</p>
     </div>
     <!-- END_dwmarker -->
 </div>
