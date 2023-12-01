@@ -7,10 +7,6 @@
 var server = require('server');
 server.extend(module.superModule);
 
-var cache = require('*/cartridge/scripts/middleware/cache');
-var consentTracking = require('*/cartridge/scripts/middleware/consentTracking');
-var pageMetaData = require('*/cartridge/scripts/middleware/pageMetaData');
-
 /**
  * @typedef ProductDetailPageResourceMap
  * @type Object
