@@ -48,11 +48,8 @@ server.append('Show', function (req, res, next) {
         assetBody = assetBody.replace("{shippingInformation}", productRefinementColor);
         viewData.assetBody = assetBody;
     }
-
     res.setViewData(viewData);
-  
     next();
 });
-
 
 module.exports = server.exports();
