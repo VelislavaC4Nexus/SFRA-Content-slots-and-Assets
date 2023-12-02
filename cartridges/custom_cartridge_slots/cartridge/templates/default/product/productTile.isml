@@ -11,14 +11,16 @@
         <isset name="price" value="${product.price}" scope="page" />
         <isif condition="${product.productType === 'set'}">
             <isinclude template="product/components/pricing/setPrice" />
-        <iselse>
-            <isinclude template="product/components/pricing/main" />
+            <iselse>
+                <isinclude template="product/components/pricing/main" />
         </isif>
 
+        <isif condition="${pdict.display.description}">
+            <isinclude template="product/productTileDescription" />
+        </isif>
         <isif condition="${pdict.display.ratings !== false}">
             <isinclude template="product/productTileFooter" />
         </isif>
-        <p>${product.shortDescription}</p>
     </div>
     <!-- END_dwmarker -->
 </div>

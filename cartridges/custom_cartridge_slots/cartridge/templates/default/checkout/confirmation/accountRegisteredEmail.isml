@@ -1,0 +1,15 @@
+<body>
+
+    <h1>${Resource.msg('email.msg.new.registration.dear', 'registration', null)}&nbsp;${pdict.firstName}&nbsp;${pdict.lastName},</h1>
+
+    <p>${Resource.msg('email.msg.new.registration.body1', 'registration', null)}</p>
+
+    <p><a href="${pdict.url}">${pdict.url}</a></p>
+
+    <isif condition="${pdict.allExclusiveProductIds}">
+        <isinclude template="product/exclusiveProductTile" sf-toolkit="off" />
+    </isif>
+
+    <p>${Resource.msg('email.msg.new.registration.body2', 'registration', null)}</p>
+
+</body>
