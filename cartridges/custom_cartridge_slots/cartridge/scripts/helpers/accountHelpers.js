@@ -1,7 +1,5 @@
 'use strict';
 var URLUtils = require('dw/web/URLUtils');
-var endpoints = require('*/cartridge/config/oAuthRenentryRedirectEndpoints');
-
 var base = module.superModule;
 
 /**
@@ -13,7 +11,6 @@ base.sendCreateAccountEmail = function (registeredUser) {
     var Site = require('dw/system/Site');
     var Resource = require('dw/web/Resource');
     var exclusiveProductHelpers = require('./exclusiveProductsHelpers');
-    var allExclusiveProductIds = exclusiveProductHelpers.getAllExclusiveProductIds()
 
     var userObject = {
         email: registeredUser.email,
