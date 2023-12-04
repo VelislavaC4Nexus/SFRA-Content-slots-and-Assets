@@ -35,9 +35,7 @@ server.append('Show', function (req, res, next) {
     if (assetContent && assetContent.online) {
         var viewData = res.getViewData();
         var ProductMgr = require("dw/catalog/ProductMgr");
-
         var ProductFactory = require("*/cartridge/scripts/factories/product");
-        var prF = ProductFactory.get({ pid: viewData.product.id });
 
         var produtWithAllattr = ProductMgr.getProduct(viewData.product.id);
         var productShippingInformation = produtWithAllattr.custom.v_shipping_information ? produtWithAllattr.custom.v_shipping_information : null;

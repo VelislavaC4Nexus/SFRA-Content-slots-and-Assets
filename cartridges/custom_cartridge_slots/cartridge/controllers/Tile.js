@@ -29,7 +29,7 @@ server.append('Show', function (req, res, next) {
     var ProductMgr = require("dw/catalog/ProductMgr");
     var produtWithAllattr = ProductMgr.getProduct(viewData.product.id);
     viewData.product.shortDescription = produtWithAllattr.shortDescription.markup;
-    res.setViewData(viewData)
+    res.setViewData(viewData);
     next();
 });
 
