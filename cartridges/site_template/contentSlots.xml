@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+    <slot-configuration slot-id="v_category-slider-women" context="category" context-id="womens" configuration-id="New Slot Configuration - 2023-12-01 09:07:40" assigned-to-site="false">
+        <template>slots/product/product_1x2.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <products/>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_category-slider-electronics" context="global" configuration-id="category-slider-electronics" default="true" assigned-to-site="false">
+        <description>Slider at the top of Category Landing Page electronics.</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_slider-category-landing-page-electronics-3"/>
+                <content-asset content-id="v_slider-category-landing-page-electronics-2"/>
+                <content-asset content-id="v_slider-category-landing-page-electronics-1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_category-slider-women" context="global" configuration-id="category-slider-women" default="true" assigned-to-site="false">
+        <description>Slider for the Category Landing Page women</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_slider-category-landing-page-womens-1"/>
+                <content-asset content-id="v_slider-category-landing-page-womens-2"/>
+                <content-asset content-id="v_slider-category-landing-page-womens-3"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_categoryLanding-slider" context="category" context-id="electronics" configuration-id="categoryLanding-slider-electronics" default="true" assigned-to-site="false">
+        <description>Slider at the top of Category Landing Page electronics.</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_slider-category-landing-page-electronics-3"/>
+                <content-asset content-id="v_slider-category-landing-page-electronics-2"/>
+                <content-asset content-id="v_slider-category-landing-page-electronics-1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_categoryLanding-slider" context="category" context-id="mens" configuration-id="categoryLanding-slider-mens" default="true" assigned-to-site="false">
+        <description>Slider at the top of Category Landing Page mens.</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_slider-category-landing-page-mens-1"/>
+                <content-asset content-id="v_slider-category-landing-page-mens-2"/>
+                <content-asset content-id="v_slider-category-landing-page-mens-3"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_categoryLanding-slider" context="category" context-id="womens" configuration-id="categoryLanding-slider-women" default="true" assigned-to-site="false">
+        <description>Slider at the top of Category Landing Page.</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_slider-category-landing-page-womens-1"/>
+                <content-asset content-id="v_slider-category-landing-page-womens-2"/>
+                <content-asset content-id="v_slider-category-landing-page-womens-3"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_featured-products-m" context="global" configuration-id="fetatured_products" default="true" assigned-to-site="false">
+        <description>Slot with featured products for HP</description>
+        <template>slots/product/homePageFeaturedProductsSlot.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="25493646M"/>
+                <product product-id="25502603M"/>
+                <product product-id="25502629M"/>
+                <product product-id="25517823M"/>
+                <product product-id="kodak-v1273M"/>
+            </products>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_hero-slider" context="global" configuration-id="homepage-main-mage-slider" default="true" assigned-to-site="false">
+        <description>Homepage main home page image slider</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="home-main-slider-1"/>
+                <content-asset content-id="home-main-slider-2"/>
+                <content-asset content-id="home-main-slider-3"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_home-categories-m" context="global" configuration-id="v_home-categories" default="true" assigned-to-site="true">
+        <description>Category links and images for the home page.</description>
+        <template>slots/category/categoryTile.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <categories>
+                <category category-id="womens"/>
+                <category category-id="mens"/>
+                <category category-id="electronics"/>
+            </categories>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Unregistered"/>
+        </customer-groups>
+    </slot-configuration>
+    <slot-configuration slot-id="v_home-products-m" context="global" configuration-id="v_home-products" default="true" assigned-to-site="false">
+        <description>Homepage product tiles slot.</description>
+        <template>slots/product/homePageProductSlotExtendDesc.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="008884304030M"/>
+                <product product-id="013742000344M"/>
+                <product product-id="061492273709M"/>
+                <product product-id="vizio-vp504fM"/>
+                <product product-id="008885535556M"/>
+            </products>
+        </content>
+    </slot-configuration>
+    <slot-configuration slot-id="v_home-categories-m" context="global" configuration-id="v_home_categories_registered" assigned-to-site="true">
+        <description>Category links and images for the home page.</description>
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_home-categories"/>
+            </content-assets>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered"/>
+        </customer-groups>
+    </slot-configuration>
+    <slot-configuration slot-id="v_category-slider-mens" context="global" configuration-id="'category-slider-mens" default="true" assigned-to-site="false">
+        <description>Slider for the Category Landing Page mens</description>
+        <template>slots/content/customContentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="v_slider-category-landing-page-mens-3"/>
+                <content-asset content-id="v_slider-category-landing-page-mens-2"/>
+                <content-asset content-id="v_slider-category-landing-page-mens-1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+</slot-configurations>
+
+
