@@ -37,11 +37,11 @@ server.append('Show', function (req, res, next) {
         var ProductMgr = require("dw/catalog/ProductMgr");
         var ProductFactory = require("*/cartridge/scripts/factories/product");
 
-        var produtWithAllattr = ProductMgr.getProduct(viewData.product.id);
-        var productShippingInformation = produtWithAllattr.custom.v_shipping_information ? produtWithAllattr.custom.v_shipping_information : null;
-        var productRefinementColor = produtWithAllattr.custom.refinementColor ? produtWithAllattr.custom.refinementColor.displayValue : null;
+        var productWithAllattr = ProductMgr.getProduct(viewData.product.id);
+        var productShippingInformation = productWithAllattr.custom.v_shipping_information ? productWithAllattr.custom.v_shipping_information : null;
+        var productRefinementColor = productWithAllattr.custom.refinementColor ? productWithAllattr.custom.refinementColor.displayValue : null;
         var assetBody = assetContent.custom.body.markup;
-        assetBody = assetBody.replace("{uuid}", produtWithAllattr.UUID);
+        assetBody = assetBody.replace("{uuid}", productWithAllattr.UUID);
         assetBody = assetBody.replace("{refinementColor}", productShippingInformation);
         assetBody = assetBody.replace("{shippingInformation}", productRefinementColor);
         viewData.assetBody = assetBody;
