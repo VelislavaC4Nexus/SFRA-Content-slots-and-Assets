@@ -8,16 +8,6 @@ var server = require('server');
 server.extend(module.superModule);
 
 /**
- * @typedef ProductDetailPageResourceMap
- * @type Object
- * @property {String} global_availability - Localized string for "Availability"
- * @property {String} label_instock - Localized string for "In Stock"
- * @property {String} global_availability - Localized string for "This item is currently not
- *     available"
- * @property {String} info_selectforstock - Localized string for "Select Styles for Availability"
- */
-
-/**
 * Product-Show : This endpoint is called to show the details of the selected product
 * @name Base/Product-Show
 * @function
@@ -42,8 +32,8 @@ server.append('Show', function (req, res, next) {
         var productRefinementColor = productWithAllattr.custom.refinementColor ? productWithAllattr.custom.refinementColor.displayValue : null;
         var assetBody = assetContent.custom.body.markup;
         assetBody = assetBody.replace("{uuid}", productWithAllattr.UUID);
-        assetBody = assetBody.replace("{refinementColor}", productShippingInformation);
-        assetBody = assetBody.replace("{shippingInformation}", productRefinementColor);
+        assetBody = assetBody.replace("{refinementColor}", productRefinementColor);
+        assetBody = assetBody.replace("{shippingInformation}", productShippingInformation);
         viewData.assetBody = assetBody;
     }
     res.setViewData(viewData);
