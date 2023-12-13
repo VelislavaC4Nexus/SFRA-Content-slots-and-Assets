@@ -8,7 +8,7 @@
     <isslot id="cat-landing-slotbanner-m" context="category" description="Banner at the top of Category Landing Pages"
         context-object="${pdict.category}" />
 
-    <isslot id="v_categoryLanding-slider" context="category" description="Slider at the top of Category Landing Page."
+    <isslot id="v-categoryLanding-slider" context="category" description="Slider at the top of Category Landing Page."
         context-object="${pdict.category}" />
     <div class="container">
         <div class="secondary-content">

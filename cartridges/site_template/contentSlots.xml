@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
-    <slot-configuration slot-id="v_category-slider-women" context="category" context-id="womens" configuration-id="New Slot Configuration - 2023-12-01 09:07:40" assigned-to-site="false">
+    <slot-configuration slot-id="v-category-slider-women" context="category" context-id="womens" configuration-id="New Slot Configuration - 2023-12-01 09:07:40" assigned-to-site="false">
         <template>slots/product/product_1x2.isml</template>
         <enabled-flag>false</enabled-flag>
         <content>
             <products/>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_category-slider-electronics" context="global" configuration-id="category-slider-electronics" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-category-slider-electronics" context="global" configuration-id="category-slider-electronics" default="true" assigned-to-site="false">
         <description>Slider at the top of Category Landing Page electronics.</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -19,7 +19,7 @@
             </content-assets>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_category-slider-women" context="global" configuration-id="category-slider-women" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-category-slider-women" context="global" configuration-id="category-slider-women" default="true" assigned-to-site="false">
         <description>Slider for the Category Landing Page women</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -31,7 +31,7 @@
             </content-assets>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_categoryLanding-slider" context="category" context-id="electronics" configuration-id="categoryLanding-slider-electronics" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-categoryLanding-slider" context="category" context-id="electronics" configuration-id="categoryLanding-slider-electronics" default="true" assigned-to-site="false">
         <description>Slider at the top of Category Landing Page electronics.</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -43,7 +43,7 @@
             </content-assets>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_categoryLanding-slider" context="category" context-id="mens" configuration-id="categoryLanding-slider-mens" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-categoryLanding-slider" context="category" context-id="mens" configuration-id="categoryLanding-slider-mens" default="true" assigned-to-site="false">
         <description>Slider at the top of Category Landing Page mens.</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -55,7 +55,7 @@
             </content-assets>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_categoryLanding-slider" context="category" context-id="womens" configuration-id="categoryLanding-slider-women" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-categoryLanding-slider" context="category" context-id="womens" configuration-id="categoryLanding-slider-women" default="true" assigned-to-site="false">
         <description>Slider at the top of Category Landing Page.</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -67,7 +67,7 @@
             </content-assets>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_featured-products-m" context="global" configuration-id="fetatured_products" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-featured-products-m" context="global" configuration-id="fetatured_products" default="true" assigned-to-site="false">
         <description>Slot with featured products for HP</description>
         <template>slots/product/homePageFeaturedProductsSlot.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -81,7 +81,7 @@
             </products>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_hero-slider" context="global" configuration-id="homepage-main-mage-slider" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-hero-slider" context="global" configuration-id="homepage-main-mage-slider" default="true" assigned-to-site="false">
         <description>Homepage main home page image slider</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -93,7 +93,7 @@
             </content-assets>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_home-categories-m" context="global" configuration-id="v_home-categories" default="true" assigned-to-site="true">
+    <slot-configuration slot-id="v-home-categories-m" context="global" configuration-id="v_home-categories" default="true" assigned-to-site="true">
         <description>Category links and images for the home page.</description>
         <template>slots/category/categoryTile.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -108,7 +108,7 @@
             <customer-group group-id="Unregistered"/>
         </customer-groups>
     </slot-configuration>
-    <slot-configuration slot-id="v_home-products-m" context="global" configuration-id="v_home-products" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-home-products-m" context="global" configuration-id="v_home-products" default="true" assigned-to-site="false">
         <description>Homepage product tiles slot.</description>
         <template>slots/product/homePageProductSlotExtendDesc.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -122,7 +122,7 @@
             </products>
         </content>
     </slot-configuration>
-    <slot-configuration slot-id="v_home-categories-m" context="global" configuration-id="v_home_categories_registered" assigned-to-site="true">
+    <slot-configuration slot-id="v-home-categories-m" context="global" configuration-id="v_home_categories_registered" assigned-to-site="true">
         <description>Category links and images for the home page.</description>
         <template>slots/content/contentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
@@ -135,7 +135,7 @@
             <customer-group group-id="Registered"/>
         </customer-groups>
     </slot-configuration>
-    <slot-configuration slot-id="v_category-slider-mens" context="global" configuration-id="'category-slider-mens" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="v-category-slider-mens" context="global" configuration-id="'category-slider-mens" default="true" assigned-to-site="false">
         <description>Slider for the Category Landing Page mens</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
