@@ -125,9 +125,9 @@
                         <isinclude template="product/components/addToCartProduct" />
                     </div>
                     <!-- Asset with uniquie product information -->
-                    <isif condition="${pdict.assetBody}">
+                    <isif condition="${product.shippingUniqueInformation}">
                         <div>
-                            <isprint value="${pdict.assetBody}" encoding="off" />
+                            <isprint value="${product.shippingUniqueInformation}" encoding="off" />
                         </div>
                     </isif>
 
