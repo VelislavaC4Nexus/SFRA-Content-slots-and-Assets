@@ -1,0 +1,6 @@
+<isscript>
+     var assets = require('~/cartridge/scripts/assets.js');
+    assets.addCss('/css/some.css');
+</isscript>
+
+<p class="productTile-description">${product.shortDescription}</p>
