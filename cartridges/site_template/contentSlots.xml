@@ -135,7 +135,7 @@
             <customer-group group-id="Registered"/>
         </customer-groups>
     </slot-configuration>
-    <slot-configuration slot-id="v-category-slider-mens" context="global" configuration-id="'category-slider-mens" default="true" assigned-to-site="false">
+    <slot-configuration slot-id="vcategory-slider-mens" context="global" configuration-id="'category-slider-mens" default="true" assigned-to-site="false">
         <description>Slider for the Category Landing Page mens</description>
         <template>slots/content/customContentAssetBody.isml</template>
         <enabled-flag>true</enabled-flag>
