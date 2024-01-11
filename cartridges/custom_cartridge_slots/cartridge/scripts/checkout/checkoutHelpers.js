@@ -21,11 +21,12 @@ base.sendConfirmationEmail = function (order, locale) {
     var Locale = require('dw/util/Locale');
     var currentLocale = Locale.getLocale(locale);
     var orderModel = new OrderModel(order, { countryCode: currentLocale.country, containerView: 'order' });
-    var exclusiveProductHelpers = require('../helpers/exclusiveProductsHelpers');
+    var exclusiveProducts = require('../helpers/exclusiveProductHelpers');
+    
     
     var orderObject = { 
         order: orderModel,
-        allExclusiveProductIds: exclusiveProductHelpers.getAllExclusiveProductIds()
+        allExclusiveProducts: exclusiveProducts.getExclusiveProducts(),
      };
 
     var emailObj = {

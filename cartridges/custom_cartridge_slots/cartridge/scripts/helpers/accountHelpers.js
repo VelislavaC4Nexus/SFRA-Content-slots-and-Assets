@@ -49,14 +49,14 @@ function sendCreateAccountEmail(registeredUser) {
     var Site = require('dw/system/Site');
     var Resource = require('dw/web/Resource');
     // var context = require('*/cartridge/scripts/helpers/exclusiveProductHelpers');
-    var exclusiveProductsIDs = require('./exclusiveProductHelpers');
+    var exclusiveProducts = require('./exclusiveProductHelpers');
     
     var userObject = {
         email: registeredUser.email,
         firstName: registeredUser.firstName,
         lastName: registeredUser.lastName,
         // context: context.getExclusiveProduct(),
-        exclusiveProductsIDs: exclusiveProductsIDs.getExclusiveProducts(),
+        allExclusiveProducts: exclusiveProducts.getExclusiveProducts(),
         url: URLUtils.https('Login-Show')
     };
 

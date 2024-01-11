@@ -1,0 +1,4 @@
+<div>
+    <isset name="content" value="${pdict.allExclusiveProducts}" scope="page" />
+    <isprint value="${content}" encoding="off" />
+</div>

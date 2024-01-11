@@ -176,7 +176,5 @@
     </isif>
     <isinclude template="checkout/confirmation/confirmationOrderTotal" />
     <!--- exclusive product tiles --->
-    <isif condition="${pdict.allExclusiveProductIds}">
-        <isinclude template="product/exclusiveProductTile" sf-toolkit="off" />
-    </isif>
+        <isinclude template="product/exclusiveProducts" sf-toolkit="off" />
 </body>

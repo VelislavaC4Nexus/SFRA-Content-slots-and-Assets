@@ -1,7 +1,7 @@
 <h2>
     ${Resource.msg('exclusive.productTiles.title', 'productTile', null)}
 </h2>
-<isloop items="${pdict.allExclusiveProductIds}" var="productId" status="loopState">
+<isloop items="${pdict.allExclusiveProducts}" var="productId" status="loopState">
     <div class="col-6 col-sm-4">
         <isprint value="${productId}" encoding="off" />
         <isinclude

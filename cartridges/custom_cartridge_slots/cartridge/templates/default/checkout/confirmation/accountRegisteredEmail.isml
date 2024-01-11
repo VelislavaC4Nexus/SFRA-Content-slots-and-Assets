@@ -6,9 +6,7 @@
 
     <p><a href="${pdict.url}">${pdict.url}</a></p>
 
-    <isif condition="${pdict.allExclusiveProductIds}">
-        <isinclude template="product/exclusiveProductTile" sf-toolkit="off" />
-    </isif>
+        <isinclude template="product/exclusiveProducts" sf-toolkit="off" />
 
     <p>${Resource.msg('email.msg.new.registration.body2', 'registration', null)}</p>
 
