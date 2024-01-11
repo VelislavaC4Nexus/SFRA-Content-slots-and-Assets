@@ -1,0 +1,10 @@
+<h2>
+    ${Resource.msg('exclusive.productTiles.title', 'productTile', null)}
+</h2>
+<isloop items="${pdict.allExclusiveProducts}" var="productId" status="loopState">
+    <div class="col-6 col-sm-4">
+        <isprint value="${productId}" encoding="off" />
+        <isinclude
+            url="${URLUtils.url('Tile-Show', 'pid', productId, 'pview', 'tile', 'ratings', true, 'swatches', true)}" />
+    </div>
+</isloop>

@@ -16,6 +16,12 @@
                         <a href="${URLUtils.url('Search-Show', 'cgid', category.ID)}" title="${category.displayName}">
                             <div class="category-tile">
                                 <img class="img-fluid" src="${category.custom.slotBannerImage.getURL()}" alt="${category.displayName}"/>
+                                <h1>
+                                    <isprint value="${category.displayName}" encoding="htmlcontent"/>
+                                </h1>
+                                 <p>
+                                    <isprint value="${category.description}" encoding="htmlcontent"/>
+                                </p>
                             </div>
                         </a>
                     </div>
